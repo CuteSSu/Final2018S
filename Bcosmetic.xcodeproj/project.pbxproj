@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4E228A20DE9C5900E5CEED /* TutorialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E228920DE9C5900E5CEED /* TutorialTableViewController.swift */; };
+		CD4E228C20DE9C6F00E5CEED /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E228B20DE9C6F00E5CEED /* TutorialViewController.swift */; };
+		CD4E228E20DEA7CA00E5CEED /* TutorialDetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E228D20DEA7CA00E5CEED /* TutorialDetialViewController.swift */; };
+		CD4E229020DEB98800E5CEED /* TutorialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E228F20DEB98800E5CEED /* TutorialData.swift */; };
+		CD6A511820DD19220012C7FA /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A511720DD19220012C7FA /* CreateViewController.swift */; };
+		CDDC554720D8467F00F71477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC554620D8467F00F71477 /* AppDelegate.swift */; };
+		CDDC554920D8467F00F71477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC554820D8467F00F71477 /* ViewController.swift */; };
+		CDDC554C20D8467F00F71477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC554A20D8467F00F71477 /* Main.storyboard */; };
+		CDDC554F20D8467F00F71477 /* Bcosmetic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDDC554D20D8467F00F71477 /* Bcosmetic.xcdatamodeld */; };
+		CDDC555120D8468100F71477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDC555020D8468100F71477 /* Assets.xcassets */; };
+		CDDC555420D8468100F71477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC555220D8468100F71477 /* LaunchScreen.storyboard */; };
+		CDDC557A20D85CB600F71477 /* CosmeticListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC557920D85CB600F71477 /* CosmeticListTableViewController.swift */; };
+		CDDC557C20D85CD800F71477 /* AddCosmeticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC557B20D85CD800F71477 /* AddCosmeticViewController.swift */; };
+		CDDC558220D86EC400F71477 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC558120D86EC400F71477 /* DetailViewController.swift */; };
+		CDDC558A20D88A6C00F71477 /* ExpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC558920D88A6C00F71477 /* ExpTableViewController.swift */; };
+		CDDC559020D89CE900F71477 /* NanumBarunGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDC558C20D89CE600F71477 /* NanumBarunGothicLight.ttf */; };
+		CDDC559120D89CE900F71477 /* NanumBarunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDC558D20D89CE600F71477 /* NanumBarunGothic.ttf */; };
+		CDDC559220D89CE900F71477 /* NanumBarunGothicUltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDC558E20D89CE600F71477 /* NanumBarunGothicUltraLight.ttf */; };
+		CDDC559320D89CE900F71477 /* NanumBarunGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDC558F20D89CE600F71477 /* NanumBarunGothicBold.ttf */; };
+		CDDC559520D89DF100F71477 /* bea.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC559420D89DF100F71477 /* bea.png */; };
+		CDDC559720D89E0600F71477 /* noun_1655107_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC559620D89E0600F71477 /* noun_1655107_cc.png */; };
+		CDDC559920D8A3B200F71477 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC559820D8A3B200F71477 /* StoreViewController.swift */; };
+		CDDC559B20D8A44C00F71477 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC559A20D8A44C00F71477 /* Store.swift */; };
+		CDDC559D20D8A47900F71477 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC559C20D8A47900F71477 /* StoreTableViewController.swift */; };
+		CDDC559F20D8A65B00F71477 /* IMG_0076-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDDC559E20D8A65B00F71477 /* IMG_0076-2.jpg */; };
+		CDDC55AA20D8C91700F71477 /* 11111111AAA.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC55A920D8C91700F71477 /* 11111111AAA.png */; };
+		CDDC55AE20D8CAB000F71477 /* cosme.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC55AB20D8CAB000F71477 /* cosme.png */; };
+		CDDC55AF20D8CAB000F71477 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC55AC20D8CAB000F71477 /* shop.png */; };
+		CDDC55B020D8CAB000F71477 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDC55AD20D8CAB000F71477 /* clock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD4E228920DE9C5900E5CEED /* TutorialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTableViewController.swift; sourceTree = "<group>"; };
+		CD4E228B20DE9C6F00E5CEED /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		CD4E228D20DEA7CA00E5CEED /* TutorialDetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialDetialViewController.swift; sourceTree = "<group>"; };
+		CD4E228F20DEB98800E5CEED /* TutorialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialData.swift; sourceTree = "<group>"; };
+		CD6A511720DD19220012C7FA /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		CDDC554320D8467F00F71477 /* Bcosmetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bcosmetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC554620D8467F00F71477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDC554820D8467F00F71477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDDC554B20D8467F00F71477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDC554E20D8467F00F71477 /* Bcosmetic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bcosmetic.xcdatamodel; sourceTree = "<group>"; };
+		CDDC555020D8468100F71477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDC555320D8468100F71477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDDC555520D8468100F71477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC557920D85CB600F71477 /* CosmeticListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeticListTableViewController.swift; sourceTree = "<group>"; };
+		CDDC557B20D85CD800F71477 /* AddCosmeticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCosmeticViewController.swift; sourceTree = "<group>"; };
+		CDDC558120D86EC400F71477 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CDDC558920D88A6C00F71477 /* ExpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpTableViewController.swift; sourceTree = "<group>"; };
+		CDDC558C20D89CE600F71477 /* NanumBarunGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicLight.ttf; sourceTree = "<group>"; };
+		CDDC558D20D89CE600F71477 /* NanumBarunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.ttf; sourceTree = "<group>"; };
+		CDDC558E20D89CE600F71477 /* NanumBarunGothicUltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicUltraLight.ttf; sourceTree = "<group>"; };
+		CDDC558F20D89CE600F71477 /* NanumBarunGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicBold.ttf; sourceTree = "<group>"; };
+		CDDC559420D89DF100F71477 /* bea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bea.png; sourceTree = "<group>"; };
+		CDDC559620D89E0600F71477 /* noun_1655107_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_1655107_cc.png; sourceTree = "<group>"; };
+		CDDC559820D8A3B200F71477 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		CDDC559A20D8A44C00F71477 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CDDC559C20D8A47900F71477 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		CDDC559E20D8A65B00F71477 /* IMG_0076-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_0076-2.jpg"; sourceTree = "<group>"; };
+		CDDC55A920D8C91700F71477 /* 11111111AAA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11111111AAA.png; sourceTree = "<group>"; };
+		CDDC55AB20D8CAB000F71477 /* cosme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cosme.png; sourceTree = "<group>"; };
+		CDDC55AC20D8CAB000F71477 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
+		CDDC55AD20D8CAB000F71477 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDC554020D8467F00F71477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDC553A20D8467F00F71477 = {
+			isa = PBXGroup;
+			children = (
+				CDDC554520D8467F00F71477 /* Bcosmetic */,
+				CDDC554420D8467F00F71477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDC554420D8467F00F71477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC554320D8467F00F71477 /* Bcosmetic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDC554520D8467F00F71477 /* Bcosmetic */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC55A020D8C45200F71477 /* Figure */,
+				CDDC558B20D89CE600F71477 /* Font */,
+				CDDC559E20D8A65B00F71477 /* IMG_0076-2.jpg */,
+				CDDC559620D89E0600F71477 /* noun_1655107_cc.png */,
+				CDDC559420D89DF100F71477 /* bea.png */,
+				CDDC554620D8467F00F71477 /* AppDelegate.swift */,
+				CDDC554A20D8467F00F71477 /* Main.storyboard */,
+				CDDC555020D8468100F71477 /* Assets.xcassets */,
+				CDDC555220D8468100F71477 /* LaunchScreen.storyboard */,
+				CDDC555520D8468100F71477 /* Info.plist */,
+				CDDC554D20D8467F00F71477 /* Bcosmetic.xcdatamodeld */,
+				CD6A511720DD19220012C7FA /* CreateViewController.swift */,
+				CDDC554820D8467F00F71477 /* ViewController.swift */,
+				CDDC557920D85CB600F71477 /* CosmeticListTableViewController.swift */,
+				CDDC557B20D85CD800F71477 /* AddCosmeticViewController.swift */,
+				CDDC558120D86EC400F71477 /* DetailViewController.swift */,
+				CDDC558920D88A6C00F71477 /* ExpTableViewController.swift */,
+				CDDC559820D8A3B200F71477 /* StoreViewController.swift */,
+				CDDC559A20D8A44C00F71477 /* Store.swift */,
+				CDDC559C20D8A47900F71477 /* StoreTableViewController.swift */,
+				CD4E228920DE9C5900E5CEED /* TutorialTableViewController.swift */,
+				CD4E228B20DE9C6F00E5CEED /* TutorialViewController.swift */,
+				CD4E228D20DEA7CA00E5CEED /* TutorialDetialViewController.swift */,
+				CD4E228F20DEB98800E5CEED /* TutorialData.swift */,
+			);
+			path = Bcosmetic;
+			sourceTree = "<group>";
+		};
+		CDDC558B20D89CE600F71477 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC558C20D89CE600F71477 /* NanumBarunGothicLight.ttf */,
+				CDDC558D20D89CE600F71477 /* NanumBarunGothic.ttf */,
+				CDDC558E20D89CE600F71477 /* NanumBarunGothicUltraLight.ttf */,
+				CDDC558F20D89CE600F71477 /* NanumBarunGothicBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CDDC55A020D8C45200F71477 /* Figure */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC55AD20D8CAB000F71477 /* clock.png */,
+				CDDC55AB20D8CAB000F71477 /* cosme.png */,
+				CDDC55AC20D8CAB000F71477 /* shop.png */,
+				CDDC55A920D8C91700F71477 /* 11111111AAA.png */,
+			);
+			path = Figure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDC554220D8467F00F71477 /* Bcosmetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC555820D8468100F71477 /* Build configuration list for PBXNativeTarget "Bcosmetic" */;
+			buildPhases = (
+				CDDC553F20D8467F00F71477 /* Sources */,
+				CDDC554020D8467F00F71477 /* Frameworks */,
+				CDDC554120D8467F00F71477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bcosmetic;
+			productName = Bcosmetic;
+			productReference = CDDC554320D8467F00F71477 /* Bcosmetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDC553B20D8467F00F71477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CDDC554220D8467F00F71477 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDDC553E20D8467F00F71477 /* Build configuration list for PBXProject "Bcosmetic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDC553A20D8467F00F71477;
+			productRefGroup = CDDC554420D8467F00F71477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDC554220D8467F00F71477 /* Bcosmetic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDC554120D8467F00F71477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC559320D89CE900F71477 /* NanumBarunGothicBold.ttf in Resources */,
+				CDDC559F20D8A65B00F71477 /* IMG_0076-2.jpg in Resources */,
+				CDDC555420D8468100F71477 /* LaunchScreen.storyboard in Resources */,
+				CDDC55AF20D8CAB000F71477 /* shop.png in Resources */,
+				CDDC55AE20D8CAB000F71477 /* cosme.png in Resources */,
+				CDDC559520D89DF100F71477 /* bea.png in Resources */,
+				CDDC555120D8468100F71477 /* Assets.xcassets in Resources */,
+				CDDC559020D89CE900F71477 /* NanumBarunGothicLight.ttf in Resources */,
+				CDDC55AA20D8C91700F71477 /* 11111111AAA.png in Resources */,
+				CDDC559220D89CE900F71477 /* NanumBarunGothicUltraLight.ttf in Resources */,
+				CDDC554C20D8467F00F71477 /* Main.storyboard in Resources */,
+				CDDC559720D89E0600F71477 /* noun_1655107_cc.png in Resources */,
+				CDDC55B020D8CAB000F71477 /* clock.png in Resources */,
+				CDDC559120D89CE900F71477 /* NanumBarunGothic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDC553F20D8467F00F71477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A511820DD19220012C7FA /* CreateViewController.swift in Sources */,
+				CDDC554920D8467F00F71477 /* ViewController.swift in Sources */,
+				CDDC557C20D85CD800F71477 /* AddCosmeticViewController.swift in Sources */,
+				CDDC558A20D88A6C00F71477 /* ExpTableViewController.swift in Sources */,
+				CDDC559D20D8A47900F71477 /* StoreTableViewController.swift in Sources */,
+				CD4E228A20DE9C5900E5CEED /* TutorialTableViewController.swift in Sources */,
+				CD4E228C20DE9C6F00E5CEED /* TutorialViewController.swift in Sources */,
+				CD4E228E20DEA7CA00E5CEED /* TutorialDetialViewController.swift in Sources */,
+				CDDC554F20D8467F00F71477 /* Bcosmetic.xcdatamodeld in Sources */,
+				CD4E229020DEB98800E5CEED /* TutorialData.swift in Sources */,
+				CDDC559B20D8A44C00F71477 /* Store.swift in Sources */,
+				CDDC559920D8A3B200F71477 /* StoreViewController.swift in Sources */,
+				CDDC558220D86EC400F71477 /* DetailViewController.swift in Sources */,
+				CDDC557A20D85CB600F71477 /* CosmeticListTableViewController.swift in Sources */,
+				CDDC554720D8467F00F71477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDDC554A20D8467F00F71477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC554B20D8467F00F71477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDC555220D8468100F71477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC555320D8468100F71477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDDC555620D8468100F71477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDDC555720D8468100F71477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDC555920D8468100F71477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bcosmetic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Bcosmetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDC555A20D8468100F71477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bcosmetic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Bcosmetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDC553E20D8467F00F71477 /* Build configuration list for PBXProject "Bcosmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC555620D8468100F71477 /* Debug */,
+				CDDC555720D8468100F71477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDC555820D8468100F71477 /* Build configuration list for PBXNativeTarget "Bcosmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC555920D8468100F71477 /* Debug */,
+				CDDC555A20D8468100F71477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDDC554D20D8467F00F71477 /* Bcosmetic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDDC554E20D8467F00F71477 /* Bcosmetic.xcdatamodel */,
+			);
+			currentVersion = CDDC554E20D8467F00F71477 /* Bcosmetic.xcdatamodel */;
+			path = Bcosmetic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDDC553B20D8467F00F71477 /* Project object */;
+}
